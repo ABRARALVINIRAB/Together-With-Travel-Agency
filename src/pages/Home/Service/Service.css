@@ -1,0 +1,13 @@
+.service {
+
+    border-radius: 20px;
+    border: 1px solid blanchedalmond;
+}
+
+.service img {
+    height: 300px;
+}
+
+.service :hover {
+    transform: scale(0.9);
+}

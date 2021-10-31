@@ -1,0 +1,51 @@
+[
+ {
+     
+      "name": "Bahamas",
+      "days":10,
+      "price": "300",
+      "description": "It's a 10 days trip.Here you find evrything that you want & it's a luxurious trip",
+      "img": " https://i.ibb.co/MZkBLkD/popular02.jpg"
+    },
+    {
+      
+      "name": "Greece",
+      "days":12,
+      "price": "100",
+      "description": "It's a 12 days trip.Here you find evrything that you want & it's a luxurious trip",
+      "img": "https://i.ibb.co/1007C6s/service1.jpg"
+    },
+    {
+      
+      "name": "The Caribbean",
+      "days":7,
+      "price": "150",
+      "description": "It's a 7 days trip.Here you find evrything that you want & it's a luxurious trip",
+      "img": " https://i.ibb.co/X4vZf5r/popular03.jpg"
+    },
+    {
+      
+      "name": "Mediterranean",
+      "days":14,
+      "price": "180",
+      "description": "It's a 14 days trip.Here you find evrything that you want & it's a luxurious trip",
+      "img":"https://i.ibb.co/TvM4ckw/popular4.jpg"
+    },
+    {
+      
+      "name": "New Zealand",
+      "days":15,
+      "price": "100",
+      "description": ".It's a 15 days trip.Here you find evrything that you want & it's a luxurious trip",
+      "img": "https://i.ibb.co/8gb4kY1/popular5.jpg"
+    },
+    {
+      
+      "name": " Hawaii",
+      "price": "1000",
+      "days":21,
+      "description": "It's a 21 days trip.Here you find evrything that you want & it's a luxurious trip",
+      "img": "https://i.ibb.co/tL1HV77/popular6.jpg"
+    }
+  ]
+  
