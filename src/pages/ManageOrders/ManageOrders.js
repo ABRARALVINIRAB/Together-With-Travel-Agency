@@ -6,13 +6,13 @@ const ManageOrders = () => {
     const [updated, setUpdated] = useState();
 
     useEffect(() => {
-        fetch('https://shrieking-chupacabra-20310.herokuapp.com/orders')
+        fetch('https://together-with-travel-agency-server-site.vercel.app/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
 
     }, [updated])
     const handleDeleteOrder = (id) => {
-        const url = `https://shrieking-chupacabra-20310.herokuapp.com/orders/${id}`;
+        const url = `https://together-with-travel-agency-server-site.vercel.app/orders/${id}`;
         fetch(url, {
             method: "DELETE"
         })
@@ -66,7 +66,7 @@ const ManageOrders = () => {
         if (matched[0].name) {
             console.log("updated", updated);
 
-            const url = `https://shrieking-chupacabra-20310.herokuapp.com/orders/${id}`;
+            const url = `https://together-with-travel-agency-server-site.vercel.app/orders/${id}`;
             fetch(url, {
                 method: "PUT",
                 headers: {

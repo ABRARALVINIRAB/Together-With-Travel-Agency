@@ -5,7 +5,7 @@ const AddNewService = () => {
     const { reset, register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data);
-        fetch("https://shrieking-chupacabra-20310.herokuapp.com/services", {
+        fetch("https://together-with-travel-agency-server-site.vercel.app/services", {
             method: "POST",
             headers: {
                 "content-type": "application/json"

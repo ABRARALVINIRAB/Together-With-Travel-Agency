@@ -5,7 +5,7 @@ import "./Services.css"
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('https://shrieking-chupacabra-20310.herokuapp.com/services')
+        fetch('https://together-with-travel-agency-server-site.vercel.app/services')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])

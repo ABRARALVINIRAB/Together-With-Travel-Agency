@@ -28,7 +28,7 @@ const Booking = () => {
     const onSubmit = data => {
         console.log(data)
 
-        fetch("https://shrieking-chupacabra-20310.herokuapp.com/orders", {
+        fetch("https://together-with-travel-agency-server-site.vercel.app/orders", {
             method: "POST",
             headers: {
                 "content-type": "application/json"
