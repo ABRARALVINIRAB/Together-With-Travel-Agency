@@ -28,7 +28,7 @@ const Booking = () => {
     const onSubmit = data => {
         console.log(data)
 
-        fetch("https://together-with-travel-agency-server-site.vercel.app/orders", {
+        fetch("https://travel-agency-9ugf.onrender.com/orders", {
             method: "POST",
             headers: {
                 "content-type": "application/json"

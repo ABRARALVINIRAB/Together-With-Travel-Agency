@@ -5,7 +5,7 @@ import "./Services.css"
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('https://together-with-travel-agency-server-site.vercel.app/services')
+        fetch('https://travel-agency-9ugf.onrender.com/services')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])

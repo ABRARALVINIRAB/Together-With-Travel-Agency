@@ -7,7 +7,7 @@ const MyOrders = () => {
     const { user } = useAuth();
 
     useEffect(() => {
-        fetch('https://together-with-travel-agency-server-site.vercel.app/orders')
+        fetch('https://travel-agency-9ugf.onrender.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
 
@@ -15,7 +15,7 @@ const MyOrders = () => {
     const matchingemail = orders.filter((order) => (order.email) === (user.email))
     console.log(matchingemail);
     const handleDeleteOrder = (id) => {
-        const url = `https://together-with-travel-agency-server-site.vercel.app/orders/${id}`;
+        const url = `https://travel-agency-9ugf.onrender.com/orders/${id}`;
         fetch(url, {
             method: "DELETE"
         })

@@ -5,7 +5,7 @@ const AddNewService = () => {
     const { reset, register, handleSubmit, watch, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data);
-        fetch("https://together-with-travel-agency-server-site.vercel.app/services", {
+        fetch("https://travel-agency-9ugf.onrender.com/services", {
             method: "POST",
             headers: {
                 "content-type": "application/json"

@@ -6,13 +6,13 @@ const ManageOrders = () => {
     const [updated, setUpdated] = useState();
 
     useEffect(() => {
-        fetch('https://together-with-travel-agency-server-site.vercel.app/orders')
+        fetch('https://travel-agency-9ugf.onrender.com/orders')
             .then(res => res.json())
             .then(data => setOrders(data))
 
     }, [updated])
     const handleDeleteOrder = (id) => {
-        const url = `https://together-with-travel-agency-server-site.vercel.app/orders/${id}`;
+        const url = `https://travel-agency-9ugf.onrender.com/orders/${id}`;
         fetch(url, {
             method: "DELETE"
         })
@@ -66,7 +66,7 @@ const ManageOrders = () => {
         if (matched[0].name) {
             console.log("updated", updated);
 
-            const url = `https://together-with-travel-agency-server-site.vercel.app/orders/${id}`;
+            const url = `https://travel-agency-9ugf.onrender.com/orders/${id}`;
             fetch(url, {
                 method: "PUT",
                 headers: {
